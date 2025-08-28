@@ -1,0 +1,19 @@
+# Projeto 4 - IA com LLM (e Construção de API) Para Análise de Sentimento em Noticiário Financeiro
+
+# Instruções:
+
+# 1- Certifique-se de ter o Docker instalado.
+
+# 2 - Abra o terminal ou prompt de comando e navegue até a pasta onde estão os arquivos do projeto.
+
+# 3- Execute o comando abaixo para criar a imagem Docker com todas as dependências.
+
+docker build -t vpl_app_p4 .
+
+# 4- Execute o comando abaixo para criar o container.
+
+docker run -dit --name vpl-projeto4 -p 8787:8787 vpl_app_p4
+
+# 5- Use a app com o comando abaixo:
+
+python cliente.py
